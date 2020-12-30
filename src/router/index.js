@@ -5,6 +5,7 @@ import Projects from "../views/Projects.vue";
 import Contact from "../views/Contact.vue";
 import Skills from "../views/Skills.vue";
 
+
 Vue.use(VueRouter);
 
 const routes = [
@@ -27,7 +28,7 @@ const routes = [
     path: "/skills",
     name: "Skills",
     component: Skills
-  }
+  },
 ];
 
 const router = new VueRouter({

@@ -51,6 +51,11 @@ export default {
 </script>
 
 <style scoped>
+* {
+  margin: 0;
+  padding: 0;
+}
+
 #mobile-grid {
   display: grid;
   width: 100%;
@@ -107,6 +112,11 @@ export default {
 }
 
 @media only screen and (min-width: 600px) {
+  * {
+    margin: 0;
+    padding: 0;
+  }
+
   html {
     font-size: 1.5em;
   }
@@ -118,7 +128,9 @@ export default {
   #DTmenu {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
-    column-gap: 50px;
+    align-items: center;
+    justify-items: center;
+    
   }
 }
 </style>

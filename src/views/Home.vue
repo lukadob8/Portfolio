@@ -15,6 +15,9 @@
       <div>
         <p>Hi, my name is Luka. I am a recent graduate from the Full Stack Web Development Diploma from InnoTech College. Prior to beginning my studies in web dev I worked in marketing and advertising. I had many roles including: team lead, sales, geurilla marketing and event coordinating. I am excited to combine the skills I learned in these roles with my newfound knowledge and passion for web design.</p>
       </div>
+      <div>
+        <a href="https://drive.google.com/file/d/1FlA8f99KGrgMEzL39oHY_b3jUosZpXhp/view?usp=sharing"><p>Click Here to Download my Resume</p></a>
+      </div>
     </div>
   </div>
 </template>
@@ -40,6 +43,7 @@ img {
 }
 #home {
   display: grid;
+  
 }
 h2 {
   text-decoration: underline solid;

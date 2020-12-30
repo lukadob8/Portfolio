@@ -26,4 +26,15 @@
 #nav a.router-link-exact-active {
   color: #42b983;
 }
+
+button{
+  border-radius: 12px;
+  width: 100px;
+  height: 30px;
+  background-color: lightblue;
+}
+button:hover{
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
 </style>
